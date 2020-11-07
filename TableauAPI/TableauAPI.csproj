@@ -1,8 +1,33 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <Version>1.3.4</Version>
+	  <PackageReleaseNotes>Added a method to get full images of a Tableau View with a filter.</PackageReleaseNotes>
+	  <description>An implementation of the Tableau REST API in C# distributed as a NuGet package.</description>
+	  <summary>An implementation of the Tableau REST API in C# distributed as a NuGet package.</summary>
+	  <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+	  <RepositoryUrl>https://github.com/onware/TableauAPI</RepositoryUrl>
+	  <authors>Onware</authors>
+	  <owners>Onware</owners>
+	  <licenseUrl>https://github.com/onware/TableauAPI/blob/master/LICENSE.txt</licenseUrl>
+	  <copyright>Copyright 2020</copyright>
+	  <tags>Tableau</tags>
+	  <releaseNotes>Added a method to obtain an image of a Tableau View with filters.</releaseNotes>
+	  <PackageTags>Tableau</PackageTags>
+	  <PackageIcon>logo.png</PackageIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\logo.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
